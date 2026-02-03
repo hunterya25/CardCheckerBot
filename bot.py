@@ -25,7 +25,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Configuration
-BOT_TOKEN = "8036201786:AAFLPZcagcVGcVI6t6U48ENsFUx-ByTM2f4"  # Replace with your bot token
+BOT_TOKEN = "8036201786:AAG3T-w2EVAL_RZOfGHkLpauQv55TzY7U-M"  # Replace with your bot token
 POCOLINKS_API_KEY = "2d9561c4f885f7ca02ee411fd6acddd8a76c7c8"
 CHECK_API_URL = "https://web-production-431c6.up.railway.app/check"  # Infinite Auto API (Stripe Auth)
 SB_API_URL = "https://web-production-fd6d4.up.railway.app/api/check"  # SB gate API (Stripe Charge $1)
@@ -6622,3 +6622,4 @@ if __name__ == '__main__':
     except Exception as e:
         print(f"Fatal error: {e}")
         logger.error(f"Fatal error: {e}")
+
